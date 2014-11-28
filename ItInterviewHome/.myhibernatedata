@@ -1,0 +1,24 @@
+#MyEclipse Hibernate Properties
+#Fri Nov 28 16:54:37 CST 2014
+sessionFactoryName=
+genBasicCompId=false
+profile=
+daoSFId=
+version=3.1
+jndiPath=
+detectM2M=false
+reStrategyClass=
+detectO2O=false
+springDaoFile=
+useJavaTypes=true
+keyGenerator=
+libInstallFolder=
+addLibs2Project=false
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+genAnnotations=false
+reSettingsFile=
+configFile=/ItInterviewHome/configs/applicationContext.xml
+createConfigFile=false
+addLibs2Classpath=false

@@ -1,0 +1,77 @@
+/* list schoolmate */
+/* .list-schoolmate {
+	
+}
+
+.list-schoolmate .media {
+	
+}
+
+.list-schoolmate .media .media-heading .tit {
+	padding-right: 20px;
+}
+
+.list-schoolmate .media .media-heading .item-city {
+	font-size: 14px;
+	padding-right: 10px;
+}
+
+.list-schoolmate .media .media-heading .item-period {
+	font-size: 14px;
+}
+
+.list-schoolmate .media .item-job {
+	padding-right: 10px;
+}
+
+.list-schoolmate .media .item-company {
+	
+}
+
+.list-schoolmate .media .item-trade {
+	display: block;
+} */
+
+
+.panel-group-schoolmate {
+	
+}
+
+.panel-group-schoolmate a {
+	color: #333;
+	text-decoration: none;
+}
+
+.panel-group-schoolmate .media {
+	
+}
+
+.panel-group-schoolmate .media .media-heading .tit {
+	padding-right: 20px;
+}
+
+.panel-group-schoolmate .media .media-heading .item-city {
+	font-size: 14px;
+	padding-right: 10px;
+}
+
+.panel-group-schoolmate .media .media-heading .item-period {
+	font-size: 14px;
+}
+
+.panel-group-schoolmate .media .item-job {
+	padding-right: 10px;
+}
+
+.panel-group-schoolmate .media .item-company {
+	
+}
+
+.panel-group-schoolmate .media .item-trade {
+	display: block;
+}
+
+
+.panel-group-schoolmate .item-company-info {
+	display: none;
+}

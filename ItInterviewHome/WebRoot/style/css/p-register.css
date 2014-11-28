@@ -1,0 +1,188 @@
+/* preregister */
+.img-register-logo {
+    margin: 0 auto;
+	
+    display: block;
+    width: 50%;
+    min-width: 300px;
+}
+/* register */
+.form-register {
+	
+}
+
+.form-register .form-group {
+	
+}
+
+.form-register .form-group-required>label:before {
+	content: "*";
+	padding-right: 4px;
+	font-weight: normal;
+	color: #c7254e;
+	padding-right: 4px;
+}
+
+.form-register textarea.form-control {
+	resize: none;
+}
+
+.form-group-sex .btn-group {
+	display: block;
+	overflow: hidden;
+}
+
+.form-group-wechat {
+	margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+/* list schoolmate */
+.list-schoolmate {
+	
+}
+
+.list-schoolmate .media {
+	
+}
+
+.list-schoolmate .media .media-heading .tit {
+	padding-right: 20px;
+}
+
+.list-schoolmate .media .media-heading .item-city {
+	font-size: 14px;
+	padding-right: 10px;
+}
+
+.list-schoolmate .media .media-heading .item-period {
+	font-size: 14px;
+}
+
+.list-schoolmate .media .item-job {
+	padding-right: 10px;
+}
+
+.list-schoolmate .media .item-company {
+	
+}
+
+.list-schoolmate .media .item-trade {
+	display: block;
+}
+
+.list-schoolmate {
+	
+}
+
+.list-schoolmate {
+	
+}
+
+.list-schoolmate {
+	
+}
+
+/* Activity List */
+.panel-activity {
+	
+}
+
+.panel-activity .panel-heading {
+	
+}
+
+.panel-activity .panel-heading .panel-title {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.panel-activity {
+	
+}
+
+.panel-activity {
+	
+}
+
+.panel-activity {
+	margin: 0 6px;
+}
+
+.panel-activity .media {
+	
+}
+
+.panel-activity .media .item .glyphicon {
+	margin-right: 6px;
+}
+
+.panel-activity .media .con-item {
+	margin-top: 10px;
+}
+
+.panel-activity .media .con-item .item {
+	border-left: 1px solid #ddd;
+	padding: 0 8px;
+}
+
+.panel-activity .media .con-item .item:first-child {
+	border-left: none;
+	padding-left: 0;
+}
+
+.panel-activity .media .con-item .item .val {
+	color: #c30;
+	padding-right: 4px;
+}
+
+.box-activityDetail {
+	margin: 0 4px;
+}
+
+.box-activityDetail .item {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.box-activityDetail .item .glyphicon {
+	margin-right: 8px;
+}
+
+.box-activityDetail .item-host {
+	
+}
+
+.box-moreImages { /* background: white; */
+	margin: 0 4px;
+}
+
+.box-moreImages h4 {
+	
+}
+
+.box-moreImages h4 .val {
+	font-size: 14px;
+}
+
+.box-moreImages .item {
+	display: inline-block;
+}
+
+.box-moreImages .img {
+	
+}
+
+.box-text {
+	margin: 0 4px;
+}
