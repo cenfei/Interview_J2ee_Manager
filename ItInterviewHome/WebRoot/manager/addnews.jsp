@@ -23,7 +23,6 @@
 			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 		<meta name="description" content="">
 		<meta name="author" content="">
-		<link rel="stylesheet" type="text/css" href="skin/css/base.css">
 		<link rel="shortcut icon" href="docs-assets/ico/favicon.png">
 		<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
 		<script type="text/javascript" src="js/My97DatePicker/WdatePicker.js"></script>

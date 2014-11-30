@@ -3,7 +3,7 @@
   type="WEB"
   name="ItInterviewHome"
   id="myeclipse.1348148131714"
-  context-root="/cjdst"
+  context-root="/ItInterviewHome"
   j2ee-spec="5.0"
   archive="ItInterviewHome.war">
   <attributes>

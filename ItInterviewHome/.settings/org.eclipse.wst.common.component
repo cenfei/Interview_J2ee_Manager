@@ -5,6 +5,6 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/configs"/>
         <property name="java-output-path" value="/iapServiceMonitor/WebRoot/WEB-INF/classes"/>
-        <property name="context-root" value="/cjdst"/>
+        <property name="context-root" value="/ItInterviewHome"/>
     </wb-module>
 </project-modules>

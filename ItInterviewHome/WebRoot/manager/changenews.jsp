@@ -28,7 +28,7 @@
 		<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
 	<script type="text/javascript" src="js/My97DatePicker/WdatePicker.js"></script>
 		<script type="text/javascript" src="js/ajaxfileupload.js"></script>
-		<script src="style/js/p-sign-register.js"></script>
+		
 
 		<script language="javascript">// Example: obj = findObj("image1");
 function findObj(theObj, theDoc)
@@ -358,8 +358,7 @@ function uploadPic(tf,imgid,fname){
     ================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
 
-		<script src="style/js/bootstrap.min.js"></script>
-
+		
 
 	</body>
 </html>
