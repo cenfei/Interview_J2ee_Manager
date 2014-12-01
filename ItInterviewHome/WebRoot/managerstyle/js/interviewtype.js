@@ -103,7 +103,7 @@ dsy.add("0_5_4", [ "阿里巴巴", "百度", "腾讯", "唯品会", "一号店",
 
 var typeArray = [ "s_language_type", "s_contentfirst_type",
 		"s_contentsecond_type" ];// 三个select的name
-var opt0 = [ "程序语言类别", "内容一级分类", "内容二级分类" ];// 初始值
+var opt0 = [ "请选择", "请选择", "请选择" ];// 初始值
 function _init_area() { // 初始化函数
 
 	for (i = 0; i < typeArray.length - 1; i++) {

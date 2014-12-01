@@ -11,7 +11,11 @@
 
 	<!-- 用户登录等操作 -->
 	<package name="mypackage" extends="json-default">
+		<!-- 登陆 -->
+		<action name="loginManger" class="managerLoginAction" method="loginManger">
+			<result name="success">/manager/index.jsp</result>
+			<result name="faild">/login.jsp</result>
+		</action>
 
-	
 	</package>
 </struts>

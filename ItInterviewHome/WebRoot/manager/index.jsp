@@ -10,9 +10,9 @@
 <html>
 	<head>
 		<base href="<%=basePath%>">
-		<link rel="shortcut icon" href="images/logo_interview.png">
+		  <link rel="shortcut icon" href="images/favicon.ico">
 
-		<title>猿面试管理后台</title>
+		<title>猿面试后台</title>
 	
 
 		<meta http-equiv="pragma" content="no-cache">
@@ -37,12 +37,15 @@
 		<!--顶部-->
 		<div class="layout_top_header">
 
-			<div style="float: left">
-				<span
-					style="font-size: 16px; line-height: 45px; padding-left: 50px; color: #8d8d8d">猿面试管理后台
-					</h1>
-				</span>
-			</div>
+<!-- 			<div style="float: left ;padding-left: 20px;padding-top: 2px;text-align:center;" > -->
+<!-- 			<img alt="" src="images/logo_interview.png" style="width: 40px;height: 40px;"> -->
+<!-- 			<span style="font-size: 20px; color: #8d8d8d;text-align:center;"> -->
+<!-- 			猿面试后台</span> -->
+					
+			<h1  style="float: left ;padding-left: 20px;"><img alt="" src="images/logo_interview.png" style="width: 40px;height: 40px;vertical-align:middle;"> 
+         <span style="font-size: 20px; color: #8d8d8d;">猿面试后台管理</span>
+        </h1>
+<!-- 			</div> -->
 			<div id="ad_setting" class="ad_setting">
 				<a class="ad_setting_a" href="javascript:; "> <i
 					class="icon-user glyph-icon" style="font-size: 20px"></i> <span>管理员</span>
@@ -86,7 +89,7 @@
 							<a href="#"><i class="glyph-icon icon-chevron-right"></i>面试题库列表</a>
 						</li>
 						<li>
-							<a href="#"><i class="glyph-icon icon-chevron-right"></i>发布面试题</a>
+							<a href="manager/addquestion.jsp"><i class="glyph-icon icon-chevron-right"></i>发布面试题</a>
 						</li>
 
 					</ul>
@@ -133,7 +136,7 @@
 			</div>
 			<div class="mian_content">
 				<div id="page_content">
-					<iframe id="menuFrame" name="menuFrame" src="manager/main.jsp"
+					<iframe id="menuFrame" name="menuFrame" src="manager/addquestion.jsp"
 						style="overflow: visible;" scrolling="yes" frameborder="no"
 						width="100%" height="100%"></iframe>
 				</div>

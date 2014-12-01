@@ -8,6 +8,6 @@ http://www.springframework.org/schema/beans http://www.springframework.org/schem
 http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
 http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
 http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd" default-autowire="byName">
-<!-- 	<bean id="supernewsService" class="com.ddm.alumin.service.SupernewsServiceImpl">-->
-<!--		</bean>-->
+	<bean id="questionHomeService" class="com.ddm.interview.service.QuestionHomeServiceImpl">
+		</bean>
 </beans>

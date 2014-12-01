@@ -33,13 +33,11 @@ body{padding: 0px;
     font-size: 14px;
     /*background-color: #e7e8eb;*/
 }
-/*顶部div*/
 .layout_top_header{
     background-color: #353636;
     width: 100%;
     height: 50px;
 }
-/*管理员设置*/
 .ad_setting{
     cursor:pointer;
     border-left:1px solid #424242;
@@ -121,7 +119,7 @@ body{padding: 0px;
     text-decoration: none !important;
 }
 
-/*菜单*/
+/*鑿滃崟*/
 .layout_left_menu{
     position:absolute;
     float: left;
@@ -211,7 +209,7 @@ body{padding: 0px;
     color: #000;
 }
 
-/*main内容显示*/
+/*main鍐呭鏄剧ず*/
 .layout_right_content{
     margin-left: 210px;
     padding-left: 10px;
@@ -253,7 +251,7 @@ body{padding: 0px;
 
 }
 
-/*底部版权*/
+/*搴曢儴鐗堟潈*/
 .layout_footer{
     position: absolute;
     bottom: 0px;
@@ -265,6 +263,9 @@ body{padding: 0px;
     height: 30px;
 }
 
-
+.top-logo{
+background: url(../../images/logo_interview.png) no-repeat left top;
+padding-left: 30px;
+}
 
 

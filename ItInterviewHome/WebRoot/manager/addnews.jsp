@@ -116,7 +116,17 @@ AddSignRow();
 }
 }
 
-
+function registerButton(){
+	var result = $("input").filter("[required]").map(function(i,n){if( $(this).val()===""){return true;}}).length;
+	//result = result && $("select").filter("[required]").map(function(i,n){if( $(this).find("option:selected").val()==="请选择"){return true;}}).length;
+	if(result){
+		alert("请把必填项填完整");
+		//document.regform.submit();
+	}
+	else{
+	document.regform.submit();
+	}
+}
 
 function uploadPic(tf,imgid,fname){
     
@@ -194,23 +204,23 @@ function uploadPic(tf,imgid,fname){
 		<div class="container">
 
 			<!-- 	<h2>注册用户</h2> -->
-			<form class="form-register" role="form" action="saveSuperInfo.action"
+			<form class="form-register" role="form" name="regform" action="saveSuperInfo.action"
 				method="post" enctype="multipart/form-data">
 				<fieldset>
 
 
 
 
-					<div class="form-group form-group-required">
+					<div class="form-group">
 						<label for="">
 							新闻主题
 						</label>
-						<input type="text" class="form-control" id="" placeholder=""
+						<input type="text" class="form-control" id="" placeholder="" required="required"
 							name="supernews.title">
 					</div>
 
 
-					<div class="form-group form-group-required">
+					<div class="form-group">
 						<label for="">
 							新闻时间
 						</label>
@@ -218,14 +228,14 @@ function uploadPic(tf,imgid,fname){
 						<input id="d4311" name="supernews.showTimeDate" value="" class="Wdate" type="text"
 							onFocus="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" />
 					</div>
-					<div class="form-group form-group-required">
+					<div class="form-group">
 						<label for="">
 							新闻内容
 						</label>
 						<textarea class="form-control" id="" placeholder=""
 							name="supernews.content" style="height:300px;"></textarea>
 					</div>
-					<div class="form-group form-group-required">
+					<div class="form-group">
 
 
 						<label for="">
@@ -246,7 +256,7 @@ function uploadPic(tf,imgid,fname){
 						</div>
 					</div>
 
-					<div class="form-group form-group-required">
+					<div class="form-group">
 
 						<div>
 							<label for="">
@@ -262,7 +272,7 @@ function uploadPic(tf,imgid,fname){
 							</div>
 						</div>
 						<fieldset>
-							<div class="form-group form-group-required">
+							<div class="form-group">
 								<table width="60%" border="0" cellpadding="2" cellspacing="1"
 									bgcolor="#FCFDEE" align="center" style="margin-top: 8px"
 									id="SignFrame">
@@ -294,9 +304,9 @@ function uploadPic(tf,imgid,fname){
 				<fieldset>
 					<div class="form-group">
 
-						<button type="submit" class="btn btn-primary">
+						<input  type="button" class="btn btn-primary" onclick="registerButton()">
 							发布新闻
-						</button>
+						</input>
 
 						<button type="reset" class="btn">
 							重置

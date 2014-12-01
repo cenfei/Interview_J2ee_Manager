@@ -51,7 +51,7 @@
         <property name="queShareSum" type="java.lang.Integer">
             <column name="que_share_sum" />
         </property>
-        <property name="quePublishTime" type="java.sql.Timestamp">
+        <property name="quePublishTime" type="java.util.Date">
             <column name="que_publish_time" length="0" />
         </property>
         <property name="queContentEnglish" type="java.lang.String">

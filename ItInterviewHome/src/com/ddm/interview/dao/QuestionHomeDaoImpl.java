@@ -12,25 +12,25 @@ import org.springframework.orm.hibernate3.HibernateCallback;
 import com.ddm.interview.IapUtil.BaseDaoSupport;
 import com.ddm.interview.IapUtil.Pager;
 import com.ddm.interview.IapUtil.PagerModel;
-import com.ddm.interview.pojo.Supernews;
+import com.ddm.interview.pojo.QuestionHome;
 
-public class SupernewsDaoImpl extends BaseDaoSupport<Supernews> implements
-		SupernewsDao {
+public class QuestionHomeDaoImpl extends BaseDaoSupport<QuestionHome> implements
+		QuestionHomeDao {
 
-	private Logger log = Logger.getLogger(SupernewsDaoImpl.class);
+	private Logger log = Logger.getLogger(QuestionHomeDaoImpl.class);
 
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see com.xxyd.iap_service_monitor.dao.SupernewsDao#save(com.xxyd.
-	 * iap_service_monitor.pojo.Supernews)
+	 * @see com.xxyd.iap_service_monitor.dao.QuestionHomeDao#save(com.xxyd.
+	 * iap_service_monitor.pojo.QuestionHome)
 	 */
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see com.ddm.alumin.dao.SupernewsDao#save(com.ddm.alumin.pojo.Supernews)
+	 * @see com.ddm.alumin.dao.QuestionHomeDao#save(com.ddm.alumin.pojo.QuestionHome)
 	 */
-	public void save(Supernews news) {
+	public void save(QuestionHome news) {
 
 		try {
 			log.debug("save start");
@@ -43,21 +43,21 @@ public class SupernewsDaoImpl extends BaseDaoSupport<Supernews> implements
 
 	}
 
-	public PagerModel<Supernews> getSupernewsBySelectSql(String sql, Pager pager) {
+	public PagerModel<QuestionHome> getQuestionHomeBySelectSql(String sql, Pager pager) {
 
-		PagerModel<Supernews> pModel = new PagerModel<Supernews>();
+		PagerModel<QuestionHome> pModel = new PagerModel<QuestionHome>();
 
 		try {
 			final Integer pageSize = pager.getMaxresult();
 			final Integer currentPage = pager.getFirstindex();
 
-			final String hql = " from Supernews u order by u.showTimeDate asc ";
+			final String hql = " from QuestionHome u order by u.showTimeDate asc ";
 
-			List<Supernews> list = getHibernateTemplate().executeFind(
+			List<QuestionHome> list = getHibernateTemplate().executeFind(
 					new HibernateCallback() {
 						public Object doInHibernate(Session session)
 								throws HibernateException, SQLException {
-							List<Supernews> result = session.createQuery(hql)
+							List<QuestionHome> result = session.createQuery(hql)
 									.setFirstResult(currentPage)
 									.setMaxResults(pageSize).list();
 							return result;
@@ -66,7 +66,7 @@ public class SupernewsDaoImpl extends BaseDaoSupport<Supernews> implements
 
 			pModel.setDatas(list);
 
-			String hql2 = "select  count(u.id) from Supernews u";
+			String hql2 = "select  count(u.id) from QuestionHome u";
 			List list2 = getHibernateTemplate().find(hql2);
 			Long countLong = null;
 			countLong = (Long) list2.get(0);
@@ -81,14 +81,14 @@ public class SupernewsDaoImpl extends BaseDaoSupport<Supernews> implements
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see com.ddm.alumin.dao.SupernewsDao#findById(java.lang.Long)
+	 * @see com.ddm.alumin.dao.QuestionHomeDao#findById(java.lang.Long)
 	 */
-	public Supernews findById(Long id) {
+	public QuestionHome findById(Long id) {
 
 		return this.find(id);
 	}
 
-	public void update(Supernews news) {
+	public void update(QuestionHome news) {
 
 		try {
 			log.debug("update start");
@@ -101,7 +101,7 @@ public class SupernewsDaoImpl extends BaseDaoSupport<Supernews> implements
 
 	}
 
-	public void delete(Supernews news) {
+	public void delete(QuestionHome news) {
 
 		try {
 			log.debug("delete start");

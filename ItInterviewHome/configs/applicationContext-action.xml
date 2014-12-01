@@ -8,8 +8,8 @@ http://www.springframework.org/schema/beans http://www.springframework.org/schem
 http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
 http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
 http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd" default-autowire="byName">
-<!--  	<bean id="searchSupernewsAction" class="com.ddm.alumin.action.SearchSupernewsAction" scope="prototype" >-->
-<!--		</bean>-->
-<!--		  	<bean id="managerLoginAction" class="com.ddm.alumin.action.ManagerLoginAction" scope="prototype" >-->
-<!--		</bean>-->
+ 	<bean id="searchQuestionHomeAction" class="com.ddm.interview.action.SearchQuestionHomeAction" scope="prototype" >
+	</bean>
+		  	<bean id="managerLoginAction" class="com.ddm.interview.action.ManagerLoginAction" scope="prototype" >
+		</bean>
 </beans>

@@ -1,6 +1,7 @@
 package com.ddm.interview.pojo;
 
 import java.sql.Timestamp;
+import java.util.Date;
 
 /**
  * QuestionHome entity. @author MyEclipse Persistence Tools
@@ -22,7 +23,7 @@ public class QuestionHome implements java.io.Serializable {
 	private Integer queLikeSum;
 	private Integer queCollectSum;
 	private Integer queShareSum;
-	private Timestamp quePublishTime;
+	private Date quePublishTime;
 	private String queContentEnglish;
 	private String queAnswerEnglish;
 	private String queContentChooses;
@@ -132,11 +133,11 @@ public class QuestionHome implements java.io.Serializable {
 		this.queShareSum = queShareSum;
 	}
 
-	public Timestamp getQuePublishTime() {
+	public Date getQuePublishTime() {
 		return this.quePublishTime;
 	}
 
-	public void setQuePublishTime(Timestamp quePublishTime) {
+	public void setQuePublishTime(Date quePublishTime) {
 		this.quePublishTime = quePublishTime;
 	}
 
